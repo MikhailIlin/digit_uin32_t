@@ -38,9 +38,9 @@ void min_max_digit (uint32_t dig)
 	cout << "количество единиц=" << t << endl;
 	max_shift=32;
 	cout << "минимальное число=" << mask << endl;
-    max_shift-=t;
-    //cout << "max_shift=" << max_shift << endl; //отладочный вывод
-    mask=mask<<max_shift;
-    cout << "максимальное число=" << mask << endl;
+	max_shift-=t;
+	//cout << "max_shift=" << max_shift << endl; //отладочный вывод
+	mask=mask<<max_shift;
+	cout << "максимальное число=" << mask << endl;
 }
 
